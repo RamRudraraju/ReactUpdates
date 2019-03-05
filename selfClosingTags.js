@@ -1,10 +1,20 @@
+/* In JSX, you have to include the slash. If you write a self-closing tag in JSX and forget the slash, you will raise an error:
+
+Fine in JSX:
+
+  <br />
+
+NOT FINE AT ALL in JSX:
+
+  <br>  */
+
 const profile = (
   <div>
     <h1>I AM JENKINS</h1>
     <img src="images/jenkins.png" />
     <article>
       I LIKE TO SIT
-      <br />
+      <br />            
       JENKINS IS MY NAME
       <br />
       THANKS HA LOT
